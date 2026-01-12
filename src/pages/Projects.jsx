@@ -34,6 +34,62 @@ const Projects = () => {
 
                 <div className="d">
                     <div>
+                        <img src="/Udemy.png" alt="" className="rounded-2xl" />
+                    </div>
+                    <div className="mt-5 ">
+                        <h1 className="text-2xl font-normal">
+                            {" "}
+                            Education Platform{" "}
+                        </h1>
+                        <p className="mt-5 font-medium">
+                            A full-stack video learning platform built with
+                            MongoDB, Express, React, and Node.js. Features
+                            include JWT-based authentication, role-based access
+                            control, secure video uploads using Multer, video
+                            streaming, and a responsive, modern UI.
+                        </p>
+                        <br />
+                        <a
+                            href="https://github.com/Aditya-coder1235/udemy-clone"
+                            className="border pt-2 pb-2 pl-6 pr-6 mt-5 rounded-2xl c"
+                        >
+                            View Code
+                        </a>
+                    </div>
+                </div>
+
+                <div className="d">
+                    <div>
+                        <img
+                            src="/youTube.png"
+                            alt=""
+                            className="rounded-2xl"
+                        />
+                    </div>
+                    <div className="mt-5 ">
+                        <h1 className="text-2xl font-normal">
+                            {" "}
+                            You Tube Clone{" "}
+                        </h1>
+                        <p className="mt-5 font-medium">
+                            YouTube Clone built using the MERN stack, featuring
+                            video upload and streaming, user authentication,
+                            likes, comments, and role-based access control.
+                            Designed with a responsive UI and secure backend
+                            APIs to simulate real-world video platforms.
+                        </p>
+                        <br />
+                        <a
+                            href="https://github.com/Aditya-coder1235/mini-youtube-clone"
+                            className="border pt-2 pb-2 pl-6 pr-6 mt-5 rounded-2xl c"
+                        >
+                            View Code
+                        </a>
+                    </div>
+                </div>
+
+                <div className="d">
+                    <div>
                         <img
                             src="/zerodha.png"
                             alt=""
@@ -43,12 +99,17 @@ const Projects = () => {
                     <div className="mt-5 ">
                         <h1 className="text-2xl font-normal"> ZERODHA </h1>
                         <p className="mt-5 font-medium">
-                            Zerodha Clone is a modern full-stack trading and
+                            Zerodha ui Clone is a modern React trading and
                             investment platform inspired by Zerodha. Built using
-                            React, Bootstrap, MongoDB, and JWT Authentication.
-                            Users can register, log in securely, and manage
-                            their trading dashboard.
+                            React, Bootstrap, React Routing.
                         </p>
+                        <br />
+                        <a
+                            href="https://github.com/Aditya-coder1235/Zerodha"
+                            className="border pt-2 pb-2 pl-6 pr-6 mt-5 rounded-2xl c"
+                        >
+                            View Code
+                        </a>
                     </div>
                 </div>
             </div>
