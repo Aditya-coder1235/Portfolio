@@ -50,7 +50,7 @@ const NavBar = ({ dark, isDark }) => {
             </div>
 
             {open && (
-                <div className="md:hidden flex flex-col gap-5 mt-5 bg-gray-200 dark:bg-gray-800 p-4 rounded-xl w-full text-center">
+                <div className="md:hidden flex flex-col gap-5 mt-5 bg-gray-200 dark:bg-white-800 p-4 rounded-xl w-full text-center">
                     <Link
                         onClick={() => setOpen(false)}
                         to="/"
